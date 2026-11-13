@@ -1,0 +1,21 @@
+<INT> <ID,0> <=> <NUM_INT> <;>
+<FLOAT> <ID,1> <=> <NUM_DEC> <;>
+
+LINEA  COLUMNA  TOKEN         LEXEMA
+-----  -------  ------------  ------------
+  1	   1	   INT	 int
+  1	   5	   ID	 edad
+  1	   10	   =	 =
+  1	   12	   NUM_INT	 20
+  1	   14	   ;	 ;
+  2	   1	   FLOAT	 float
+  2	   7	   ID	 promedio
+  2	   16	   =	 =
+  2	   18	   NUM_DEC	 15.5
+  2	   22	   ;	 ;
+
+--- TABLA DE SIMBOLOS ---
+INDICE  IDENTIFICADOR
+------  -------------
+  0	   edad
+  1	   promedio

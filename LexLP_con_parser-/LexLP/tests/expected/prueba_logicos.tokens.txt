@@ -1,0 +1,27 @@
+<IF> <(> <ID,0> <COMP> <NUM_INT> <&&> <ID,1> <COMP> <NUM_INT> <)>
+<IF> <(> <!> <ID,2> <)>
+
+LINEA  COLUMNA  TOKEN         LEXEMA
+-----  -------  ------------  ------------
+  1	   1	   IF	 if
+  1	   4	   (	 (
+  1	   5	   ID	 a
+  1	   7	   COMP	 >
+  1	   9	   NUM_INT	 10
+  1	   12	   &&	 &&
+  1	   15	   ID	 b
+  1	   17	   COMP	 <
+  1	   19	   NUM_INT	 20
+  1	   21	   )	 )
+  2	   1	   IF	 if
+  2	   4	   (	 (
+  2	   5	   !	 !
+  2	   6	   ID	 activo
+  2	   12	   )	 )
+
+--- TABLA DE SIMBOLOS ---
+INDICE  IDENTIFICADOR
+------  -------------
+  0	   a
+  1	   b
+  2	   activo

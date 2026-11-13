@@ -1,0 +1,27 @@
+<INT> <ID,0> <ID,1>
+<ID,2> <ID,3> <ID,2>
+<NUM_INT> <NUM_DEC> <NUM_DEC> <NUM_INT> <ID,4> <BOOLEAN>
+
+LINEA  COLUMNA  TOKEN         LEXEMA
+-----  -------  ------------  ------------
+  1	   1	   INT	 int
+  1	   5	   ID	 integer
+  1	   13	   ID	 intVariable
+  2	   1	   ID	 nota1
+  2	   7	   ID	 nota2
+  2	   13	   ID	 nota1
+  3	   1	   NUM_INT	 123
+  3	   5	   NUM_DEC	 45.6
+  3	   10	   NUM_DEC	 12.3
+  3	   15	   NUM_INT	 4
+  3	   17	   ID	 nota
+  3	   22	   BOOLEAN	 boolean
+
+--- TABLA DE SIMBOLOS ---
+INDICE  IDENTIFICADOR
+------  -------------
+  0	   integer
+  1	   intVariable
+  2	   nota1
+  3	   nota2
+  4	   nota

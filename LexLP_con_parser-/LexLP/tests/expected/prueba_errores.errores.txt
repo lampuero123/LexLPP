@@ -1,0 +1,4 @@
+LINEA  COLUMNA  LEXEMA  RESULTADO
+-----  -------  ------  -------------
+  1	   5	   @	 ERROR_LEXICO
+  2	   1	   $	 ERROR_LEXICO

@@ -1,0 +1,38 @@
+<INT> <ID,0>
+<INT> <ID,1>
+<INT> <ID,2>
+<INT> <ID,3>
+<INT> <ID,4>
+<INT> <ID,5>
+<INT> <ID,6>
+<FLOAT> <ID,0>
+
+LINEA  COLUMNA  TOKEN         LEXEMA
+-----  -------  ------------  ------------
+  1	   1	   INT	 int
+  1	   5	   ID	 edad
+  2	   1	   INT	 int
+  2	   5	   ID	 Int
+  3	   1	   INT	 int
+  3	   5	   ID	 IF
+  4	   1	   INT	 int
+  4	   5	   ID	 if2
+  5	   1	   INT	 int
+  5	   5	   ID	 integer
+  6	   1	   INT	 int
+  6	   5	   ID	 _privado
+  7	   1	   INT	 int
+  7	   5	   ID	 a1b2c3
+  8	   1	   FLOAT	 float
+  8	   7	   ID	 edad
+
+--- TABLA DE SIMBOLOS ---
+INDICE  IDENTIFICADOR
+------  -------------
+  0	   edad
+  1	   Int
+  2	   IF
+  3	   if2
+  4	   integer
+  5	   _privado
+  6	   a1b2c3

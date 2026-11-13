@@ -1,0 +1,14 @@
+<INT> <ID,0> <=> <NUM_INT> <;>
+
+LINEA  COLUMNA  TOKEN         LEXEMA
+-----  -------  ------------  ------------
+  2	   1	   INT	 int
+  2	   5	   ID	 edad
+  2	   10	   =	 =
+  2	   12	   NUM_INT	 20
+  2	   14	   ;	 ;
+
+--- TABLA DE SIMBOLOS ---
+INDICE  IDENTIFICADOR
+------  -------------
+  0	   edad

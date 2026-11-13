@@ -1,0 +1,18 @@
+<NUM_INT>
+<NUM_DEC>
+<NUM_INT>
+<NUM_DEC>
+<NUM_INT>
+<NUM_DEC>
+
+LINEA  COLUMNA  TOKEN         LEXEMA
+-----  -------  ------------  ------------
+  1	   1	   NUM_INT	 20
+  2	   1	   NUM_DEC	 15.5
+  3	   1	   NUM_INT	 0
+  4	   1	   NUM_DEC	 3.1416
+  5	   1	   NUM_INT	 007
+  6	   1	   NUM_DEC	 100.25
+
+--- TABLA DE SIMBOLOS ---
+No se encontraron identificadores.

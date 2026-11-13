@@ -1,0 +1,52 @@
+<VOID> <MAIN> <(> <)> <{>
+<INT> <ID,0> <=> <NUM_INT> <;>
+<FLOAT> <ID,1> <=> <NUM_DEC> <;>
+<IF> <(> <ID,0> <COMP> <NUM_INT> <&&> <ID,0> <COMP> <NUM_INT> <)> <{>
+<PRINTLN> <(> <TEXTO> <)> <;>
+<}>
+<RETURN> <;>
+<}>
+
+LINEA  COLUMNA  TOKEN         LEXEMA
+-----  -------  ------------  ------------
+  1	   1	   VOID	 void
+  1	   6	   MAIN	 main
+  1	   10	   (	 (
+  1	   11	   )	 )
+  1	   13	   {	 {
+  2	   5	   INT	 int
+  2	   9	   ID	 edad
+  2	   14	   =	 =
+  2	   16	   NUM_INT	 20
+  2	   18	   ;	 ;
+  3	   5	   FLOAT	 float
+  3	   11	   ID	 promedio
+  3	   20	   =	 =
+  3	   22	   NUM_DEC	 15.5
+  3	   26	   ;	 ;
+  4	   5	   IF	 if
+  4	   8	   (	 (
+  4	   9	   ID	 edad
+  4	   14	   COMP	 >=
+  4	   17	   NUM_INT	 18
+  4	   20	   &&	 &&
+  4	   23	   ID	 edad
+  4	   28	   COMP	 <=
+  4	   31	   NUM_INT	 60
+  4	   33	   )	 )
+  4	   35	   {	 {
+  5	   9	   PRINTLN	 println
+  5	   16	   (	 (
+  5	   17	   TEXTO	 "Edad valida"
+  5	   30	   )	 )
+  5	   31	   ;	 ;
+  6	   5	   }	 }
+  7	   5	   RETURN	 return
+  7	   11	   ;	 ;
+  8	   1	   }	 }
+
+--- TABLA DE SIMBOLOS ---
+INDICE  IDENTIFICADOR
+------  -------------
+  0	   edad
+  1	   promedio
