@@ -22,6 +22,8 @@ generadores tipo Lex/Flex.
 | Semana 1 (15/09) | Lectura del archivo + `NUM_INT` + `NUM_DEC` |  Implementado |
 | Semana 2 (22/09) | `ID` + `TEXTO` + palabras reservadas + tabla de símbolos | Implementado |
 | Semana 3 (29/09) | Operadores + símbolos especiales + comentarios + integración completa |  Implementado |
+| Semana 11 (13/11) | Integración lexer→parser, `PROGRAMA`, `PRINCIPAL`, `BLOQUE`, declaraciones, asignaciones, errores básicos | Implementado |
+| Semana 12 (24/11) | AST, recuperación de errores (varios errores por ejecución), pruebas de funciones/IO/control | Pendiente |
 
 ### Expresiones regulares implementadas
 
